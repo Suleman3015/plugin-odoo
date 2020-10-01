@@ -24,7 +24,7 @@ addons in either:
 Now unzip the downloaded archive and copy the new payment_lyra folder to Odoo addons directory. Then, you
 can choose one of these instructions:
 
-* In your Odoo administrator interface, browse to "Configuration" tab. Here in, activate the developer mode.
+* In your Odoo administrator interface, browse to "Configuration" tab Here in, activate the developer mode.
   Then browse to "Applications" tab and click on "Update applications list".
 * Or restart Odoo server with *sudo systemctl restart odoo* on Linux or by restarting Windows Odoo service.
   Odoo will update the applications list on startup.
@@ -41,7 +41,7 @@ Configuration
 * Click on button "Configure" of Lyra Collect module.
 * You can now enter your Lyra Collect credentials.
 
-Important
+Important note
 ---------
 * You should select a Payment Journal in the "Configuration" tab of the Lyra Collect aquirer
   to start using this payment method.
